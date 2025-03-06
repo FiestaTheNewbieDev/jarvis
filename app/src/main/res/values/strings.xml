@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "Jarvis">]>
+<resources>
+    <string name="app_name" translatable="false">&appname;</string>
+    <string name="welcome_message">Welcome to &appname; !</string>
+    <string name="alarm_phone">Alarm Phone</string>
+    <string name="alarm_password">Alarm Password</string>
+    <string name="word_continue">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="error_invalid_phone">Invalid phone number</string>
+    <string name="error_invalid_password">Password must be 4 digits</string>
+</resources>
