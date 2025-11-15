@@ -21,7 +21,7 @@ export const getDefaultLanguage = (): string => {
   return DEFAULT_LOCALE;
 };
 
-export const currentLanguage = i18n.language || getDefaultLanguage();
+export const getCurrentLanguage = (): string => i18n.language || getDefaultLanguage();
 
 const useLanguageStorage: LanguageDetectorAsyncModule = {
   type: 'languageDetector',
